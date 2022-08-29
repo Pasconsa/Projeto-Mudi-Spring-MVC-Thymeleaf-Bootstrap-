@@ -36,7 +36,7 @@ import br.com.alura.mvc.mudi.repository.PedidoRepository;
 			
 			pedidoRepository.save(pedido);
 			
-			return "pedido/formulario";
+			return "redirect:/home";
 		}
 	}
 
